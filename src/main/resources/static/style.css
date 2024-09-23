@@ -1,5 +1,25 @@
+h1 {
+  text-align: center;
+  width: 304px;
+  padding: 16px;
+  background-color: #A8D1D1;
+}
+
+.rankings {
+  text-align: center;
+  width: 304px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #FD8A8A;
+}
+
 .container {
   position: relative;
+}
+
+.container:hover {
+  transform: scale(1.02);
+  font-weight: bold;
 }
 
 a {
